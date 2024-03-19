@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5"
+    tools:context=".FoodPage">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="239dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:text="ЕДА В СЛУЧАЕ ЯДЕРНОЙ ВОЙНЫ."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="401dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="57dp"
+        android:background="#4A4B2F"
+        android:text="Безопасной для употребления является пища, которая не контактировала с радиоактивными веществами: еда в герметичных контейнерах (банках, бутылках, коробках и т. п) и еда в холодильнике или морозильной камере."
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/imageView21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="205dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="461dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:srcCompat="@drawable/food" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="397dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:background="#4A4B2F"
+        android:text="Не собирайте и не употребляйте плоды и овощи из своего сада, огорода или те продукты, что находились на улице, пока не получите официальное уведомление, что это безопасно."
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="397dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:background="#4A4B2F"
+        android:text="Только бутилированная вода безопасна для употребления, пока не будет проведена проверка водопроводной воды на загрязнение. Кипячение не избавляет от радиоактивных веществ. Вы должны иметь воду в бутылках, которой запаслись заранее."
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="176dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="463dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toEndOf="@+id/imageView20"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:srcCompat="@drawable/food2" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="219dp"
+        android:layout_height="142dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32"
+        app:srcCompat="@drawable/bottlewater" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="398dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:background="#4A4B2F"
+        android:text="На следующей странице вы увидите список продуктов, которые долго хранятся. "
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+
+    <Button
+        android:id="@+id/foodpage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="след"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="startNextFoodPage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

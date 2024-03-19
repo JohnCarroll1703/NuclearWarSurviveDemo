@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodPage3">
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="315dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp"
+        android:text="ЕДА В СЛУЧАЕ ЯДЕРНОЙ ВОЙНЫ. ДОЛГО СОХРАНЯЮЩИЕСЯ ПРОДУКТЫ."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="399dp"
+        android:layout_height="103dp"
+        android:background="#4A4B2F"
+        android:text="Сахар. Срок хранения: до 8 лет.                                                Сахар является природным консервантом. Но, в отличии от соли, срок его годности меньше. Тем не менее, сахар может сохранять свои свойства на протяжении 8 лет при соблюдении необходимых условий хранения: температура в помещении не превышает +25°C."
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="407dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="276dp"
+        android:background="#4A4B2F"
+        android:text="Соль. Срок хранения: больше 10 лет.                                                Помимо ценных вкусовых качеств, соль обладает еще и свойствами консерванта. Поможет обновлять запасы продуктов длительного хранения для выживания. Например, делать солонину."
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="237dp"
+        android:layout_height="174dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40"
+        app:srcCompat="@drawable/sugar" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="237dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="260dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40"
+        app:srcCompat="@drawable/salt" />
+
+    <Button
+        android:id="@+id/foodpage4"
+        android:layout_width="81dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="92dp"
+        android:text="след"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27"
+        android:onClick="openNuFoodPage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

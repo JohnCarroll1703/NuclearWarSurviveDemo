@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background6"
+    tools:context=".FoodPage2">
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="387dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="232dp"
+        android:background="#4A4B2F"
+        android:text="Крупы. Срок хранения: от 3 до 5 лет.                                           Пшено, рис, гречка, манная крупа хранятся около года. Неазменимый источник медленных углеводов. На случай перебоев с продовольствием делаем запас круп каждого вида минимум по килограмму. Для продления срока хранения нужно сразу после покупки прокалить в духовке при 80 градусах. Держать в тканевых мешочках и герметичных ёмкостях на морозе."
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="315dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp"
+        android:text="ЕДА В СЛУЧАЕ ЯДЕРНОЙ ВОЙНЫ. ДОЛГО СОХРАНЯЮЩИЕСЯ ПРОДУКТЫ."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="387dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="637dp"
+        android:background="#4A4B2F"
+        android:text="Какие продукты запасать?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="388dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:background="#4A4B2F"
+        android:text="Срок хранения некоторых из них составляет до 10 лет, если соблюдать правила хранения в торговой точке и дома."
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="388dp"
+        android:layout_height="87dp"
+        android:background="#4A4B2F"
+        android:text="Формируя стратегический запас на случай катастрофы, подойдите к делу обдуманно. Не стоит сметать с полок все подряд. Оцените продукты питания для выживания по следующим критериям: 1. Срок хранения. 2. Питательная ценность. "
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="191dp"
+        android:layout_height="147dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36"
+        app:srcCompat="@drawable/krupp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="196dp"
+        android:layout_height="152dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toEndOf="@+id/imageView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView36"
+        app:srcCompat="@drawable/krupp2" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="184dp"
+        android:layout_height="133dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37"
+        app:srcCompat="@drawable/tushonka" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="191dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="36dp"
+        android:background="#4A4B2F"
+        android:text="Мясные консервы. Срок хранения: до 5 лет.                         Тушёная говядина или тушёная свинина - воистину легендарные продукты. Срок хранения зависит от вида тары: алюминиевая или жестяная."
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.969"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/foodpage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="след"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodPage7">
+
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="156dp"
+        android:layout_height="142dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView54"
+        app:srcCompat="@drawable/taganok2" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="156dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView54"
+        app:srcCompat="@drawable/aquatabs" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="162dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="408dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView54"
+        app:srcCompat="@drawable/vedro" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="391dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:background="#4A4B2F"
+        android:text="Таганок туристический. Отлично пододйет для разогрева еды и приготовления чая."
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="386dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="180dp"
+        android:background="#4A4B2F"
+        android:text="Обеззараживатель для воды. Техногенная катастрофа, радиоактивная или другая опасность в одно мгновение сделают воду непригодной для питья."
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="385dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="380dp"
+        android:background="#4A4B2F"
+        android:text="Ведра и канистры для воды. Обычный городской житель привык обходиться без них. При этом нужно учесть, что в критической ситуации водоснабжение может нарушиться, и придется проторить тропинку к роднику или точке подвоза питьевой воды."
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="312dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp"
+        android:text="ЕДА В СЛУЧАЕ ЯДЕРНОЙ ВОЙНЫ. ИНСТРУМЕНТЫ."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

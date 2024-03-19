@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodPage4">
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="315dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp"
+        android:text="ЕДА В СЛУЧАЕ ЯДЕРНОЙ ВОЙНЫ. ДОЛГО СОХРАНЯЮЩИЕСЯ ПРОДУКТЫ."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="394dp"
+        android:layout_height="87dp"
+        android:background="#4A4B2F"
+        android:text="Макаронные изделия. Срок хранения: до 5 лет.                                              Лидер среди всех крахмалосодержащих продуктов. Они могут храниться, не теряя своего внешнего вида и пищевой ценности, до 5 лет. Лучше всего хранить их в фабричной упаковке, в тёмном, проветриваемом месте."
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="393dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="236dp"
+        android:background="#4A4B2F"
+        android:text="Мука Срок хранения: до 6-8 месяцев.                                                   По сравнению с крупами, у муки маленький срок хранения. Это связано с высокой способностью муки впитывать влагу и её подверженности микробиологическим заражениям. Лучше всего хранить муку в стеклянной или пластиковой таре, которая плотно закрывается."
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="179dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView43"
+        app:srcCompat="@drawable/makarony" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="171dp"
+        android:layout_height="152dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView28"
+        app:layout_constraintTop_toBottomOf="@+id/textView43"
+        app:srcCompat="@drawable/makarony2" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="163dp"
+        android:layout_height="173dp"
+        android:layout_marginEnd="236dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44"
+        app:srcCompat="@drawable/riceflour" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="157dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44"
+        app:srcCompat="@drawable/flour" />
+
+    <Button
+        android:id="@+id/foodpage5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="СЛЕД"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView31"
+        android:onClick="openFoodPage5"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

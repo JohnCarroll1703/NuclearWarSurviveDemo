@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "915367025132",
+    "project_id": "nuclearwarsurvive",
+    "storage_bucket": "nuclearwarsurvive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915367025132:android:41fa4ee967a5dfb985c8c9",
+        "android_client_info": {
+          "package_name": "com.example.nuclearwarsurvive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArBuM7Zcx45N7xi9dUxBHeU9FJkyAMWmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
